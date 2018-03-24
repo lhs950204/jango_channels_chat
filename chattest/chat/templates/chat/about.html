@@ -1,0 +1,9 @@
+<p class="deck">
+	데모버전입니다<a href="http://channels.readthedocs.org/en/latest/">Django Channels</a>to implement a simple weebsocket_based chat server. see this code <a href="http://github.com/jacobian/channels-example"></a>
+</p>
+<p>
+<a class="button button-primary" href="{% url 'new_room' %}">new chat room</a>
+</p>
+<p class="quiet">
+or, can visit <code>{{ request.scheme }}://{{ request.get_host }}/chat/any-path-you-want</code>
+</p>
